@@ -1,0 +1,125 @@
+* {
+    font-family: verdana;
+  }
+  
+  .pokemons {
+    width: 95%;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  
+  .pokemongrid {
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  
+  .pokemongrid > * {
+    margin-bottom: 20px;
+  }
+  
+  .pokemongrid img {
+    width: 100%;
+    background-color: #eee;
+  }
+  
+  .pokemon-id {
+    font-size: 12px;
+    color: #aaa;
+    font-weight: bold;
+  }
+  
+  .pokemon-name {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .pokemon-type {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .pokemon-type .type {
+    font-size: 10px;
+    padding: 2px 15px;
+    text-transform: capitalize;
+  }
+  
+  .pokemon-type .type-fire {
+    background-color: #fd7d24;
+    color: #fff;
+  }
+  
+  .pokemon-type .type-poison {
+    background-color: #b97fc9;
+    color: #fff;
+  }
+  
+  .pokemon-type .type-normal {
+    background-color: #a4acaf;
+    color: #000;
+  }
+  
+  .pokemon-type .type-fairy {
+    background-color: #fdb9e9;
+    color: #000;
+  }
+  
+  .pokemon-type .type-rock {
+    background-color: #a38c21;
+    color: #000;
+  }
+  
+  .pokemon-type .type-flying {
+    background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+    color: #000;
+  }
+  
+  .pokemon-type .type-ground {
+    background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+    color: #000;
+  }
+  
+  .pokemon-type .type-bug {
+    background-color: #729f3f;
+    color: #000;
+  }
+  
+  .pokemon-type .type-water {
+    background-color: #4592c4;
+    color: #fff;
+  }
+  
+  .pokemon-type .type-grass {
+    background-color: #9bcc50;
+    color: #fff;
+  }
+  
+  .pokemon-type .type-electric {
+    background-color: #eed535;
+    color: #000;
+  }
+  
+  .pokemon-type .type-fighting {
+    background-color: #d56723;
+    color: #fff;
+  }
+  
+  .centerText {
+    text-align: center;
+  }
+
+  .load-more-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .load-more-area .load-more {
+    padding: 10px 30px;
+    background-color: #30a7d7;
+    color: #fff;
+    cursor: pointer;
+  }
